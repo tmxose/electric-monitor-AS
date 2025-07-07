@@ -91,13 +91,21 @@
 			const titleSelect = document.getElementById("as_title");
 			const titleInput = document.getElementById("as_title_custom");
 
-			facilitySelect.addEventListener("change", () => {
-				facilityInput.style.display = facilitySelect.value === "기타" ? "block" : "none";
-			});
-
-			titleSelect.addEventListener("change", () => {
-				titleInput.style.display = titleSelect.value === "기타" ? "block" : "none";
-			});
+			function toggleCustomInput(selectElem, inputElem) {
+		        if (selectElem.value === "기타") {
+		            inputElem.style.display = "block";
+		        } else {
+		            inputElem.style.display = "none";
+		            inputElem.value = "";
+		        }
+		    }
+		
+		    facilitySelect.addEventListener("change", () => {
+		        toggleCustomInput(facilitySelect, facilityInput);
+		    });
+		    titleSelect.addEventListener("change", () => {
+		        toggleCustomInput(titleSelect, titleInput);
+		    });
 			
 			// 오늘 날짜 이후부터 선택 가능
 			const dateInput = document.getElementById("reserve_date");

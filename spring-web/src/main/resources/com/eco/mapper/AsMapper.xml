@@ -28,6 +28,14 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         AND use_yn = 'Y'
         ]]>
 	</select>
+	<!-- 신고 수정 화면 -->
+	<select id="selectAsDetailByCommon" resultType="com.eco.domain.ASVO">
+        <![CDATA[
+        SELECT * FROM T_AS
+        WHERE as_cd = #{as_cd}
+        AND use_yn = 'Y'
+        ]]>
+	</select>
 
 
 	<!-- INSERT -->
@@ -41,5 +49,18 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 
 
 	<!-- UPDATE -->
+	<update id="updateAsListByCommon" parameterType="com.eco.domain.ASVO">
+        <![CDATA[
+		    UPDATE t_as set staff_cd=5, user_mail=#{user_mail}, as_title=#{as_title}, as_content=#{as_content}, as_date=#{as_date}, as_addr=#{as_addr}, as_facility=#{as_facility}
+		    WHERE as_cd=#{as_cd}
+	    ]]>
+	</update>
+	<!-- UPDATE -->
+	<update id="deleteAsListByCommon" parameterType="com.eco.domain.ASVO">
+        <![CDATA[
+		    UPDATE t_as set use_yn="N"
+		    WHERE as_cd=#{as_cd}
+	    ]]>
+	</update>
 
 </mapper>

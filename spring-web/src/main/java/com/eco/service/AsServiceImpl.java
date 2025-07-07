@@ -58,4 +58,24 @@ public class AsServiceImpl implements AsService {
 		return result > 0;
 	}
 
+	// AS 신고 수정 화면
+	@Override
+	public ASVO readAsDetailByUser(int as_cd) {
+		return asMapper.selectAsDetailByCommon(as_cd);
+	}
+
+	// AS 신고 수정
+	@Override
+	public boolean editAsListByCommon(ASVO asvo) {
+		int result = asMapper.updateAsListByCommon(asvo);
+		return result>0;
+	}
+	
+	// AS 신고 삭제
+	@Override
+	public boolean cancleAsListByCommon(int as_cd) {
+		int result = asMapper.deleteAsListByCommon(as_cd);
+		return result>0;
+	}
+
 }

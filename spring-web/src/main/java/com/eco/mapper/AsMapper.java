@@ -16,4 +16,13 @@ public interface AsMapper {
 	// 일반 회원의 AS 신고
 	public int insertAsListByCommon(ASVO asvo);
 	
+	// AS 신고 수정 화면
+	public ASVO selectAsDetailByCommon(int as_cd);
+	// AS 신고 수정
+	public int updateAsListByCommon(ASVO asvo);
+	
+	// AS 신고 삭제
+	public int deleteAsListByCommon(int as_cd);
+	
+	
 }
