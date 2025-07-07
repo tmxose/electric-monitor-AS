@@ -188,6 +188,78 @@
 	    dateInput.addEventListener("change", function() {
 	        fetchBookedTimes(this.value);
 	    });
+	    
+	    const form = document.querySelector('form[action="/as/updateCommon"]');
+	    form.addEventListener("submit", function (e) {
+	        const userMail = document.getElementById("user_mail");
+	        const asFacility = document.getElementById("as_facility");
+	        const asFacilityCustom = document.getElementById("as_facility_custom");
+	        const asAddr = document.getElementById("as_addr");
+	        const asTitle = document.getElementById("as_title");
+	        const asTitleCustom = document.getElementById("as_title_custom");
+	        const asContent = document.getElementById("as_content");
+	        const reserveDate = document.getElementById("reserve_date");
+	        const reserveTimeRadios = document.querySelectorAll('input[name="reserve_time"]');
+	        
+	        // 필수값 검증
+	        if (userMail.value.trim() === "") {
+	            alert("이메일을 입력해주세요.");
+	            userMail.focus();
+	            e.preventDefault();
+	            return;
+	        }
+	        if (asFacility.value === "") {
+	            alert("시설 종류를 선택해주세요.");
+	            asFacility.focus();
+	            e.preventDefault();
+	            return;
+	        }
+	        if (asFacility.value === "기타" && asFacilityCustom.value.trim() === "") {
+	            alert("시설 종류를 직접 입력해주세요.");
+	            asFacilityCustom.focus();
+	            e.preventDefault();
+	            return;
+	        }
+	        if (asAddr.value.trim() === "") {
+	            alert("주소를 입력해주세요.");
+	            asAddr.focus();
+	            e.preventDefault();
+	            return;
+	        }
+	        if (asTitle.value === "") {
+	            alert("문제 종류를 선택해주세요.");
+	            asTitle.focus();
+	            e.preventDefault();
+	            return;
+	        }
+	        if (asTitle.value === "기타" && asTitleCustom.value.trim() === "") {
+	            alert("문제 종류를 직접 입력해주세요.");
+	            asTitleCustom.focus();
+	            e.preventDefault();
+	            return;
+	        }
+	        if (asContent.value.trim() === "") {
+	            alert("상세 정보를 입력해주세요.");
+	            asContent.focus();
+	            e.preventDefault();
+	            return;
+	        }
+	        if (reserveDate.value === "") {
+	            alert("예약 일자를 선택해주세요.");
+	            reserveDate.focus();
+	            e.preventDefault();
+	            return;
+	        }
+	        let timeSelected = false;
+	        reserveTimeRadios.forEach(radio => {
+	            if (radio.checked) timeSelected = true;
+	        });
+	        if (!timeSelected) {
+	            alert("예약 시간을 선택해주세요.");
+	            e.preventDefault();
+	            return;
+	        }
+	    });
 	});
 </script>
 </body>
