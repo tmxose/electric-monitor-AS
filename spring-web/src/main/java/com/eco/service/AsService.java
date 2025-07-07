@@ -12,6 +12,8 @@ public interface AsService {
 	
 	// 기사, 관리자의 AS 리스트 가져오는 함수
 	public List<ASVO> getAsList(String userType, int staffCd);
+	// 사용자의의 AS 리스트 가져오는 함수
+	public List<ASVO> getUserAsList(int user_cd);
 	
 	// 일반 회원의 AS 신고
 	public boolean registerAsByCommon(ASVO asvo);

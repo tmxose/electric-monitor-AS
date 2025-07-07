@@ -83,5 +83,16 @@ public class AsController {
 		}
 		return "redirect:/as/form";
 	}
+	
+	@GetMapping("/detail")
+	public String asDetail(HttpSession session, RedirectAttributes redirectAttrs) {
+		log.info("as신청 내역 상세 페이지 요청");
+		UserVO user = (UserVO) session.getAttribute("currentUserInfo");
+	    if (user == null) {
+	        redirectAttrs.addFlashAttribute("message", "로그인 후 이용해주세요.");
+	        return "redirect:/login"; // 💡 로그인 페이지 URL에 맞게 수정
+	    }
+		return "/as/asDetail";
+	}
 
 }

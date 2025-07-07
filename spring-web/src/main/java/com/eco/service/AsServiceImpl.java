@@ -45,6 +45,12 @@ public class AsServiceImpl implements AsService {
 		}
 	}
 	
+	// 사용자의의 AS 리스트 가져오는 함수
+	@Override
+	public List<ASVO> getUserAsList(int user_cd){
+		return asMapper.selectAsListByUser(user_cd);
+	}
+	
 	// 일반 회원의 AS 신고
 	@Override
 	public boolean registerAsByCommon(ASVO asvo) {
