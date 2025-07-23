@@ -198,10 +198,16 @@ Spring에서 **정적 리소스 매핑 설정**을 추가하여 웹을 통해 �
 ## 🖥️ 시연 화면
 
 ### 📊 모니터링 대시보드
+<img width="1920" height="1357" alt="대시보드" src="https://github.com/user-attachments/assets/97e264e7-9ed3-4aab-b78f-090fab05b4ac" />
 
+### 🗂️ 사용자 A/S 신청 및 상세정보
+<img width="1920" height="1233" alt="as신고" src="https://github.com/user-attachments/assets/2e97d5ea-e3e6-4d6a-9e16-8209490f526c" />
+<img width="1920" height="965" alt="as상세내역" src="https://github.com/user-attachments/assets/78d4b7f1-0493-4d3c-b781-0d6660c900a9" />
 
 ### 🗂️ A/S 처리 현황 및 캘린더
-
+<img width="1920" height="953" alt="관리자as목록" src="https://github.com/user-attachments/assets/de7bff66-01fb-49c4-a592-d9bdf9876568" />
+<img width="1920" height="1178" alt="관리자as달력" src="https://github.com/user-attachments/assets/3161c88e-dc72-47a2-8cce-3184bbbc688f" />
 
 ### ✅ 권한별 메뉴 및 페이지 접근 제어
+<img width="1920" height="1622" alt="관리자 계정관리" src="https://github.com/user-attachments/assets/54af1305-22af-48cc-97ea-a6ec81e72175" />
 
