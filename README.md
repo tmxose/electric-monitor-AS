@@ -199,13 +199,14 @@ Spring에서 **정적 리소스 매핑 설정**을 추가하여 웹을 통해 �
 ### **메인화면**
 
 - **메인화면**
-    
-    ![screencapture-localhost-8080-2025-07-22-17_01_46.png](attachment:4d8971d4-c936-4d0a-9312-934794792555:screencapture-localhost-8080-2025-07-22-17_01_46.png)
-    
+<img width="1920" height="953" alt="메인" src="https://github.com/user-attachments/assets/60409181-afb6-4694-8273-248ada4d5e03" />
+
 - **로그인 화면**
-    
-    ![screencapture-localhost-8080-login-2025-07-22-17_02_15.png](attachment:05f8386d-8271-48f4-a84d-5756b4364743:screencapture-localhost-8080-login-2025-07-22-17_02_15.png)
-    
+<img width="1920" height="953" alt="로그인" src="https://github.com/user-attachments/assets/da0c92fa-617c-436b-ae18-4baba1f011da" />
+
+- **회원가입 화면**
+<img width="1920" height="1421" alt="회원가입" src="https://github.com/user-attachments/assets/f49b0955-617e-42ba-b4e5-2628250d3d7d" />
+
 
 ### **공통헤더**
 
@@ -237,38 +238,30 @@ Spring에서 **정적 리소스 매핑 설정**을 추가하여 웹을 통해 �
 ### **📊 모니터링 대시보드**
 
 - 대시보드
-    
-    ![screencapture-localhost-8080-dashboard-2025-07-22-17_02_04.png](attachment:73ce27e6-88a7-4a0e-a53f-966d4c3836a0:screencapture-localhost-8080-dashboard-2025-07-22-17_02_04.png)
+<img width="1920" height="1357" alt="대시보드" src="https://github.com/user-attachments/assets/3b78de38-6f9c-42a7-8167-59e4251c0132" />
+
     
 - **전기 재해 신고 목록**
-    
-    ![screencapture-localhost-8080-report-2025-07-22-17_40_59.png](attachment:74f82631-5351-41c9-b7ec-30fdd2977a08:screencapture-localhost-8080-report-2025-07-22-17_40_59.png)
-    
+<img width="1920" height="953" alt="전기재해신고" src="https://github.com/user-attachments/assets/f10cdcd3-3499-44c0-9d53-b9a29e617828" />
+
 
 ### **🗂 A/S 처리 현황 및 캘린더**
 
 - **A/S 처리 현황**
-    
-    ![screencapture-localhost-8080-as-form-2025-07-22-17_02_29.png](attachment:1c506e15-1b1b-4c89-a711-d9ca4829473e:screencapture-localhost-8080-as-form-2025-07-22-17_02_29.png)
-    
-    ![screencapture-localhost-8080-as-detail-2025-07-22-17_02_39.png](attachment:92d77a85-0868-427a-9bff-427aa011c4df:screencapture-localhost-8080-as-detail-2025-07-22-17_02_39.png)
-    
-    ![screencapture-localhost-8080-as-info-2025-07-22-17_02_47.png](attachment:55771f09-d999-4323-9515-a99d33411e9e:screencapture-localhost-8080-as-info-2025-07-22-17_02_47.png)
-    
+<img width="1920" height="1233" alt="as신고" src="https://github.com/user-attachments/assets/8b19cfa9-f1d1-4b03-90ea-abe1d9677e24" />
+<img width="1920" height="965" alt="as상세내역" src="https://github.com/user-attachments/assets/b34c6ec3-df9a-4af8-ac2f-1fe34b8bd38e" />
+<img width="1920" height="953" alt="as신고목록" src="https://github.com/user-attachments/assets/1c69f739-ea6b-4d41-984d-12677f17fccc" />
+
 - **캘린더**
-    
-    ![screencapture-localhost-8080-as-calendar-2025-07-22-17_03_55.png](attachment:a0678953-35ec-4ba3-b6ad-2817e11afa44:screencapture-localhost-8080-as-calendar-2025-07-22-17_03_55.png)
-    
+<img width="1920" height="1178" alt="관리자as달력" src="https://github.com/user-attachments/assets/eed93254-f971-4d4a-8f8d-3e0b32428e8a" />
+
 
 ### ✅ **관리자 메뉴 및 공지사항**
 
-- **관리자 메뉴**
-    
-    ![screencapture-localhost-8080-admin-account-2025-07-22-17_04_05.png](attachment:9972496b-682d-477a-a06d-4330e6fedcca:screencapture-localhost-8080-admin-account-2025-07-22-17_04_05.png)
-    
+- **관리자 메뉴**    
+<img width="1920" height="1622" alt="관리자 계정관리" src="https://github.com/user-attachments/assets/80b12f7a-6e21-4f86-9848-f93e4cbf5e82" />
+
 - **공지사항**
-    
-    ![screencapture-localhost-8080-notice-detail-2025-07-22-17_04_28.png](attachment:9411690c-74a6-41d3-8555-285c420607a1:screencapture-localhost-8080-notice-detail-2025-07-22-17_04_28.png)
-### ✅ 권한별 메뉴 및 페이지 접근 제어
-<img width="1920" height="1622" alt="관리자 계정관리" src="https://github.com/user-attachments/assets/54af1305-22af-48cc-97ea-a6ec81e72175" />
+<img width="1920" height="953" alt="공지사항" src="https://github.com/user-attachments/assets/de480a6e-91d5-4bfd-853d-5047a4391b99" />
+
 
