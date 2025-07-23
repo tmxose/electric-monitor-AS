@@ -196,18 +196,79 @@ Spring에서 **정적 리소스 매핑 설정**을 추가하여 웹을 통해 �
 -----
 
 ## 🖥️ 시연 화면
+### **메인화면**
 
-### 📊 모니터링 대시보드
-<img width="1920" height="1357" alt="대시보드" src="https://github.com/user-attachments/assets/97e264e7-9ed3-4aab-b78f-090fab05b4ac" />
+- **메인화면**
+    
+    ![screencapture-localhost-8080-2025-07-22-17_01_46.png](attachment:4d8971d4-c936-4d0a-9312-934794792555:screencapture-localhost-8080-2025-07-22-17_01_46.png)
+    
+- **로그인 화면**
+    
+    ![screencapture-localhost-8080-login-2025-07-22-17_02_15.png](attachment:05f8386d-8271-48f4-a84d-5756b4364743:screencapture-localhost-8080-login-2025-07-22-17_02_15.png)
+    
 
-### 🗂️ 사용자 A/S 신청 및 상세정보
-<img width="1920" height="1233" alt="as신고" src="https://github.com/user-attachments/assets/2e97d5ea-e3e6-4d6a-9e16-8209490f526c" />
-<img width="1920" height="965" alt="as상세내역" src="https://github.com/user-attachments/assets/78d4b7f1-0493-4d3c-b781-0d6660c900a9" />
+### **공통헤더**
 
-### 🗂️ A/S 처리 현황 및 캘린더
-<img width="1920" height="953" alt="관리자as목록" src="https://github.com/user-attachments/assets/de7bff66-01fb-49c4-a592-d9bdf9876568" />
-<img width="1920" height="1178" alt="관리자as달력" src="https://github.com/user-attachments/assets/3161c88e-dc72-47a2-8cce-3184bbbc688f" />
+- **전기재해 모니터링**
+    
+    ![image.png](attachment:2a3f930f-1b1d-421d-9bbb-942042ccce78:image.png)
+    
+- **노후시설 A/S 서비스(로그아웃)**
+    
+    ![image.png](attachment:c0cc60dc-d417-498d-a1ab-c315890c98ec:image.png)
+    
+- **노후시설 A/S 서비스(회원)**
+    
+    ![image.png](attachment:56a06eff-e2c1-4d33-af8f-fef61ea451d1:image.png)
+    
+- **노후시설 A/S 서비스(직원, 관리자)**
+    
+    ![image.png](attachment:bd37ff62-980d-437d-9416-221f315defd5:image.png)
+    
+- **고객지원 (비회원, 회원, 직원)**
+    
+    ![image.png](attachment:fdca7e05-8a39-4bba-9813-86a6000cd829:image.png)
+    
+- **고객지원 (관리자)**
+    
+    ![image.png](attachment:9da70684-9eab-4375-b382-97acfc7c10a2:image.png)
+    
 
+### **📊 모니터링 대시보드**
+
+- 대시보드
+    
+    ![screencapture-localhost-8080-dashboard-2025-07-22-17_02_04.png](attachment:73ce27e6-88a7-4a0e-a53f-966d4c3836a0:screencapture-localhost-8080-dashboard-2025-07-22-17_02_04.png)
+    
+- **전기 재해 신고 목록**
+    
+    ![screencapture-localhost-8080-report-2025-07-22-17_40_59.png](attachment:74f82631-5351-41c9-b7ec-30fdd2977a08:screencapture-localhost-8080-report-2025-07-22-17_40_59.png)
+    
+
+### **🗂 A/S 처리 현황 및 캘린더**
+
+- **A/S 처리 현황**
+    
+    ![screencapture-localhost-8080-as-form-2025-07-22-17_02_29.png](attachment:1c506e15-1b1b-4c89-a711-d9ca4829473e:screencapture-localhost-8080-as-form-2025-07-22-17_02_29.png)
+    
+    ![screencapture-localhost-8080-as-detail-2025-07-22-17_02_39.png](attachment:92d77a85-0868-427a-9bff-427aa011c4df:screencapture-localhost-8080-as-detail-2025-07-22-17_02_39.png)
+    
+    ![screencapture-localhost-8080-as-info-2025-07-22-17_02_47.png](attachment:55771f09-d999-4323-9515-a99d33411e9e:screencapture-localhost-8080-as-info-2025-07-22-17_02_47.png)
+    
+- **캘린더**
+    
+    ![screencapture-localhost-8080-as-calendar-2025-07-22-17_03_55.png](attachment:a0678953-35ec-4ba3-b6ad-2817e11afa44:screencapture-localhost-8080-as-calendar-2025-07-22-17_03_55.png)
+    
+
+### ✅ **관리자 메뉴 및 공지사항**
+
+- **관리자 메뉴**
+    
+    ![screencapture-localhost-8080-admin-account-2025-07-22-17_04_05.png](attachment:9972496b-682d-477a-a06d-4330e6fedcca:screencapture-localhost-8080-admin-account-2025-07-22-17_04_05.png)
+    
+- **공지사항**
+    
+    ![screencapture-localhost-8080-notice-detail-2025-07-22-17_04_28.png](attachment:9411690c-74a6-41d3-8555-285c420607a1:screencapture-localhost-8080-notice-detail-2025-07-22-17_04_28.png)
 ### ✅ 권한별 메뉴 및 페이지 접근 제어
 <img width="1920" height="1622" alt="관리자 계정관리" src="https://github.com/user-attachments/assets/54af1305-22af-48cc-97ea-a6ec81e72175" />
 
