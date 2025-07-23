@@ -125,58 +125,13 @@
 
 -----
 
-## 🚀 문제 해결 및 기술적 도전
-
-### ✅ 기술적 도전
+## 🚀  기술적 도전
 
   * **권한별 상태 변경 제한**: `window.userType`으로 프론트 메뉴 노출 제어 및 세션 기반 사용자 검증으로 이중 확인
   * **Python ↔ Spring 연동**: FastAPI로 모델 결과 JSON 반환 및 Ajax 호출로 실시간 데이터 바인딩
   * **동시 요청 처리**: AJAX 비동기 처리와 DB 트랜잭션으로 상태 일관성 유지
   * **SNS 로그인 처리**: 신규/기존 사용자 분기 처리 로직 구현
 
-### ✅ 문제 사례 1: 전기재해 신고글 등록 시 파일 조회가 안되는 현상
-
-  * **문제점**: 팀원이 동일한 경로에 접근할 수 없어 업로드된 파일을 보지 못함
-    
-    ### 📌 원인
-
-- `D:\01-STUDY\SHJ\upload` 경로는 **서버 로컬 경로**이므로, 서버에 직접 접근하지 않는 이상 **외부에서는 파일을 볼 수 없음**
-- 웹에서는 `D:\01-STUDY\SHJ\upload` 폴더가 **정적 리소스로 매핑되지 않았기 때문**
-
- * **해결 방법**
-
-Spring에서 **정적 리소스 매핑 설정**을 추가하여 웹을 통해 해당 폴더에 접근할 수 있도록 설정해주어야 함.
-
-### 1. `servlet-context.xml` 또는 설정 클래스에 아래 내용 추가:
-
-```xml
-<mvc:resources mapping="/files/**" location="file:///D:/01-STUDY/SHJ/upload/" />
-<context:component-scan base-package="com.eco.controller, com.eco.config.web" />
-```
-
-- `mapping="/files/**"`: 웹에서 `/upload/파일명`으로 접근할 수 있도록 함
-- `location="file:///D:/01-STUDY/SHJ/upload/"`: 실제 파일이 저장된 로컬 경로를 가리킴
-- `MailConfig`와 `FileResourceConfig`는 서로 다른 초기화 컨텍스트(Spring Root vs Servlet)에서 동작해야 하기 때문에, 같은 패키지에 두면 충돌이 발생함. 이를 방지하기 위해 각각 `com.eco.config.mail`과 `com.eco.config.web`로 분리하여 설정함.
-    
-    ```jsx
-    **com.eco.config
-    │
-    ├── MailConfig          <-- 메일 관련 설정 (RootContext에서 사용)
-    ├── FileResourceConfig  <-- 정적 리소스 설정 (ServletContext에서 사용)
-    │
-    └── (충돌 발생 ⚠️)
-          동일 컨텍스트로 초기화하려다 충돌
-    
-    📌 해결 방법
-    패키지 분리 후 각각의 컨텍스트에서 초기화되도록 설정
-    
-    com.eco.config.mail
-    └── MailConfig          <-- RootContext 전용 설정
-    
-    com.eco.config.web
-    └── FileResourceConfig  <-- ServletContext 전용 설정**
-    
-    ```
 
 -----
 ## 📈 개발 결과 및 회고
