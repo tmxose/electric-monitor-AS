@@ -166,29 +166,23 @@
 ### **공통헤더**
 
 - **전기재해 모니터링**
-    
-    ![image.png](attachment:2a3f930f-1b1d-421d-9bbb-942042ccce78:image.png)
-    
+    <img width="1607" height="347" alt="전기재해 모니터링" src="https://github.com/user-attachments/assets/02998ea7-9b72-4c47-8a5c-2f297b7e3cf5" />
+
 - **노후시설 A/S 서비스(로그아웃)**
-    
-    ![image.png](attachment:c0cc60dc-d417-498d-a1ab-c315890c98ec:image.png)
-    
+    <img width="1609" height="351" alt="노후시설 AS 서비스" src="https://github.com/user-attachments/assets/d96f1cd6-884d-4fd1-8eb3-c06972294456" />
+
 - **노후시설 A/S 서비스(회원)**
-    
-    ![image.png](attachment:56a06eff-e2c1-4d33-af8f-fef61ea451d1:image.png)
-    
+    <img width="1606" height="386" alt="AS 회원" src="https://github.com/user-attachments/assets/56ee1e60-c799-4760-b88a-5deefcde83c2" />
+
 - **노후시설 A/S 서비스(직원, 관리자)**
-    
-    ![image.png](attachment:bd37ff62-980d-437d-9416-221f315defd5:image.png)
-    
+    <img width="1609" height="369" alt="AS 직원 관리자" src="https://github.com/user-attachments/assets/90626925-ed5c-434c-9faa-06f13567c88d" />
+
 - **고객지원 (비회원, 회원, 직원)**
-    
-    ![image.png](attachment:fdca7e05-8a39-4bba-9813-86a6000cd829:image.png)
-    
+    <img width="1608" height="362" alt="고객지원 비회원" src="https://github.com/user-attachments/assets/472a6c08-7e03-4c3a-b590-f5d9776efd12" />
+
 - **고객지원 (관리자)**
-    
-    ![image.png](attachment:9da70684-9eab-4375-b382-97acfc7c10a2:image.png)
-    
+    <img width="1608" height="387" alt="고객지원 관리자" src="https://github.com/user-attachments/assets/8e01d358-95a1-456b-b7aa-e009f881207a" />
+
 
 ### **📊 모니터링 대시보드**
 
