@@ -150,67 +150,8 @@
 
 -----
 
-## 🖥️ 시연 화면
-### **메인화면**
-
-- **메인화면**
-<img width="1920" height="953" alt="메인" src="https://github.com/user-attachments/assets/60409181-afb6-4694-8273-248ada4d5e03" />
-
-- **로그인 화면**
-<img width="1920" height="953" alt="로그인" src="https://github.com/user-attachments/assets/da0c92fa-617c-436b-ae18-4baba1f011da" />
-
-- **회원가입 화면**
-<img width="1920" height="1421" alt="회원가입" src="https://github.com/user-attachments/assets/f49b0955-617e-42ba-b4e5-2628250d3d7d" />
+## 🖥️ 시연 영상
 
 
-### **공통헤더**
-
-- **전기재해 모니터링**
-    <img width="1607" height="347" alt="전기재해 모니터링" src="https://github.com/user-attachments/assets/02998ea7-9b72-4c47-8a5c-2f297b7e3cf5" />
-
-- **노후시설 A/S 서비스(로그아웃)**
-    <img width="1609" height="351" alt="노후시설 AS 서비스" src="https://github.com/user-attachments/assets/d96f1cd6-884d-4fd1-8eb3-c06972294456" />
-
-- **노후시설 A/S 서비스(회원)**
-    <img width="1606" height="386" alt="AS 회원" src="https://github.com/user-attachments/assets/56ee1e60-c799-4760-b88a-5deefcde83c2" />
-
-- **노후시설 A/S 서비스(직원, 관리자)**
-    <img width="1609" height="369" alt="AS 직원 관리자" src="https://github.com/user-attachments/assets/90626925-ed5c-434c-9faa-06f13567c88d" />
-
-- **고객지원 (비회원, 회원, 직원)**
-    <img width="1608" height="362" alt="고객지원 비회원" src="https://github.com/user-attachments/assets/472a6c08-7e03-4c3a-b590-f5d9776efd12" />
-
-- **고객지원 (관리자)**
-    <img width="1608" height="387" alt="고객지원 관리자" src="https://github.com/user-attachments/assets/8e01d358-95a1-456b-b7aa-e009f881207a" />
-
-
-### **📊 모니터링 대시보드**
-
-- 대시보드
-<img width="1920" height="1357" alt="대시보드" src="https://github.com/user-attachments/assets/3b78de38-6f9c-42a7-8167-59e4251c0132" />
-
-    
-- **전기 재해 신고 목록**
-<img width="1920" height="953" alt="전기재해신고" src="https://github.com/user-attachments/assets/f10cdcd3-3499-44c0-9d53-b9a29e617828" />
-
-
-### **🗂 A/S 처리 현황 및 캘린더**
-
-- **A/S 처리 현황**
-<img width="1920" height="1233" alt="as신고" src="https://github.com/user-attachments/assets/8b19cfa9-f1d1-4b03-90ea-abe1d9677e24" />
-<img width="1920" height="965" alt="as상세내역" src="https://github.com/user-attachments/assets/b34c6ec3-df9a-4af8-ac2f-1fe34b8bd38e" />
-<img width="1920" height="953" alt="as신고목록" src="https://github.com/user-attachments/assets/1c69f739-ea6b-4d41-984d-12677f17fccc" />
-
-- **캘린더**
-<img width="1920" height="1178" alt="관리자as달력" src="https://github.com/user-attachments/assets/eed93254-f971-4d4a-8f8d-3e0b32428e8a" />
-
-
-### ✅ **관리자 메뉴 및 공지사항**
-
-- **관리자 메뉴**    
-<img width="1920" height="1622" alt="관리자 계정관리" src="https://github.com/user-attachments/assets/80b12f7a-6e21-4f86-9848-f93e4cbf5e82" />
-
-- **공지사항**
-<img width="1920" height="953" alt="공지사항" src="https://github.com/user-attachments/assets/de480a6e-91d5-4bfd-853d-5047a4391b99" />
-
+https://github.com/user-attachments/assets/0d1994c2-a9e1-477b-8c94-2a1bf41791fa
 
